@@ -45,3 +45,5 @@ two leaves will be hashed into an intermediary node. The two nodes will then be 
 the root value. While some merkle tree implementations hash the concatination of two values,
 we will use an available hash method that accepts two inputs and not worry about under the 
 hood details.
+
+![Screen Shot 2023-06-17 at 12 07 58 PM](https://github.com/burke-md/Noir_MerkleTree/assets/22263098/4fad201b-634d-4bb7-807b-a1541e3449aa)
