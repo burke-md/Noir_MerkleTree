@@ -46,4 +46,6 @@ the root value. While some merkle tree implementations hash the concatination of
 we will use an available hash method that accepts two inputs and not worry about under the 
 hood details.
 
+![Screen Shot 2023-06-17 at 12 07 58 PM](https://github.com/burke-md/Noir_MerkleTree/assets/22263098/4fad201b-634d-4bb7-807b-a1541e3449aa)
+
 The root of this tree is `0x289975d2db0b11a41e68d044249299ef957d2742cac18aa788ffcf54e8a5dbca`.
