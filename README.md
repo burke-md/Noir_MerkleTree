@@ -45,3 +45,5 @@ two leaves will be hashed into an intermediary node. The two nodes will then be 
 the root value. While some merkle tree implementations hash the concatination of two values,
 we will use an available hash method that accepts two inputs and not worry about under the 
 hood details.
+
+The root of this tree is `0x289975d2db0b11a41e68d044249299ef957d2742cac18aa788ffcf54e8a5dbca`.
