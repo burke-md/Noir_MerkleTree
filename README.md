@@ -49,3 +49,19 @@ hood details.
 ![Screen Shot 2023-06-17 at 12 07 58 PM](https://github.com/burke-md/Noir_MerkleTree/assets/22263098/4fad201b-634d-4bb7-807b-a1541e3449aa)
 
 The root of this tree is `0x289975d2db0b11a41e68d044249299ef957d2742cac18aa788ffcf54e8a5dbca`.
+
+As the owner of, or user with knowledge of the second address(shown as data2 in the above graphic), 
+we will require a hash path with leaf 2 and intermediary node 2 to prove our inclusion.
+
+The following steps will be followed for validation:
+
+- Hash our address (data 2) to create leaf 2
+- Hash leaf 2 w/ leaf 1 to produce node 1
+- Hash node 1 w/ node 2
+
+If the outcome of our final hash matches the provided root, our membership has been proven. 
+
+Note:
+
+At no time are we made aware of the other three data points. Only their hashed values, which are 
+typically obscured via the use of a one way hash function.
