@@ -1,7 +1,15 @@
+use dep::std;
 use dep::std::hash::poseidon::bn254::hash_1;
 use dep::std::hash::poseidon::bn254::hash_2;
 
-fn main(_values : [Field; 4]) -> pub Field {
+fn main(_values: [Field; 4]) {
+    let root: Field = generateRoot(_values);
+
+    std::println("Root: ");
+    std::println(root);
+}
+
+fn generateRoot(_values: [Field; 4]) -> pub Field {
     let tup: (Field, Field, Field, Field) = (
         hash_1([_values[0]]),
         hash_1([_values[1]]),
@@ -16,7 +24,6 @@ fn main(_values : [Field; 4]) -> pub Field {
     let root: Field = hash_2([interNode_1, interNode_2]);
     
     root
-
 }
 
 #[test]

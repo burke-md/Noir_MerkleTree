@@ -48,9 +48,11 @@ hood details.
 
 ![Screen Shot 2023-06-17 at 12 07 58 PM](https://github.com/burke-md/Noir_MerkleTree/assets/22263098/4fad201b-634d-4bb7-807b-a1541e3449aa)
 
-The ROOT of this tree is `0x289975d2db0b11a41e68d044249299ef957d2742cac18aa788ffcf54e8a5dbca`
+ROOT: `0x289975d2db0b11a41e68d044249299ef957d2742cac18aa788ffcf54e8a5dbca`
 
-The value in Node 2 is `0x091694ea829fdeffbd3d2fd7c5bc449f8f8ddf8024a74dbb28cd144438f68ee6`
+Node 2: `0x091694ea829fdeffbd3d2fd7c5bc449f8f8ddf8024a74dbb28cd144438f68ee6`
+
+Leaf 1: `0x261c233b8780d005788a19f55647ae1c28ae3faaaf0c9114b95f6287b2cd2b4e`
 
 As the owner of, or user with knowledge of the second address(shown as data2 in the above graphic), 
 we will require a hash path with leaf 2 and intermediary node 2 to prove our inclusion.
